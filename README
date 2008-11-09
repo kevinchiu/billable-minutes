@@ -15,7 +15,7 @@ The file should be in this format:
 
 The output will look like this:
 
-(The number at the bottom is in ours. The other numbers are in minutes.)
+(The number at the bottom is in hours. The other numbers are in minutes.)
 
 5:00am - 7:00am, 8:40am - 2:40pm, 4:30pm - 11:59pm
 
