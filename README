@@ -2,4 +2,40 @@ Billable Minutes
 
 I wrote this so that I could easily extract billable hours from time ranges with minute-level accuracy.
 
-My secondary objective was to brush up on my Python skills =P
+Usage:
+	python hourCounter.py ~/Desktop/filename.txt
+
+The file should be in this format:
+
+5:00am - 7:00am, 8:40am - 2:40pm, 4:30pm - 11:59pm
+12:00am - 1:10am, 10:37am - 12:54pm, 1:33pm - 7:00pm
+3:30pm - 4:00pm, 5:30pm - 6:00pm
+10:10am - 3:27pm, 3:34pm - 9:08pm
+3:00am - 4:32am, 4:40am - 5:01am, 4:30pm - 5:10pm, 9:44pm - 10:37pm
+
+The output will look like this:
+
+(The number at the bottom is in ours. The other numbers are in minutes.)
+
+5:00am - 7:00am, 8:40am - 2:40pm, 4:30pm - 11:59pm
+
+ 929
+
+12:00am - 1:10am, 10:37am - 12:54pm, 1:33pm - 7:00pm
+
+ 534
+
+3:30pm - 4:00pm, 5:30pm - 6:00pm
+
+ 60
+
+10:10am - 3:27pm, 3:34pm - 9:08pm
+
+ 651
+
+3:00am - 4:32am, 4:40am - 5:01am, 4:30pm - 5:10pm, 9:44pm - 10:37pm
+
+ 206
+
+39.6666666667
+
