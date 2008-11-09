@@ -5,7 +5,7 @@ I wrote this so that I could easily extract billable hours from time ranges with
 Usage:
 	python hourCounter.py ~/Desktop/filename.txt
 
-The file should be in this format:
+The file should be in the following format. Each line represents a day that begins at 12:00am and ends at 11:59pm.
 
 5:00am - 7:00am, 8:40am - 2:40pm, 4:30pm - 11:59pm
 12:00am - 1:10am, 10:37am - 12:54pm, 1:33pm - 7:00pm
