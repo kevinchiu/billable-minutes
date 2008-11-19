@@ -68,11 +68,10 @@ Tests
 """
 def test(statement):
 	if statement:
-		result = "Pass"
+		return "Pass"
 	else:
-		result = "Fail"
-	return result
-
+		return "Fail"
+	
 def print_failed(method, status):
 	if status == "Fail":
 		print method + "failed"
