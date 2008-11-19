@@ -4,7 +4,7 @@ import sys
 """
 Purposes of this program:
 - Calculate billable hours with minute accuracy.
-- Teach myself Python
+- Teach myself Python (again)
 """
 
 # Transform HH:MMxm notation into minutes
